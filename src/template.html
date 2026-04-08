@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body >
+
+  <div class="container">
+
+    <!-- Login -->
+    <div id="login-box" class="box active">
+      <h2>Login</h2>
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button>Login</button>
+      <p>Don't have an account? <span id="to-register">Register</span></p>
+    </div>
+
+    <!-- Register -->
+    <div id="register-box" class="box">
+      <h2>Register</h2>
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button>Register</button>
+      <p>Already have an account? <span id="to-login">Login</span></p>
+    </div>
+
+  </div>
+
+
+  
+</body>
+</html>

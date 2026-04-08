@@ -1,0 +1,84 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #011936;
+}
+
+/* Container */
+.container {
+  width: 320px;
+}
+
+/* Box */
+.box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  display: none;
+}
+
+.box.active {
+  display: block;
+}
+
+/* Title */
+.box h2 {
+  margin-bottom: 20px;
+  color: #011936;
+  text-align: center;
+}
+
+/* Inputs */
+.box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.box input:focus {
+  border-color: #011936;
+}
+
+/* Button */
+.box button {
+  width: 100%;
+  padding: 10px;
+  background: #011936;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.box button:hover {
+  background: #03305c;
+}
+
+/* Text */
+.box p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.box span {
+  color: #011936;
+  cursor: pointer;
+  font-weight: bold;
+}
