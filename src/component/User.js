@@ -1,2 +1,7 @@
  
- export default console.log("aura");
+ class User{
+  constructor(email, password){
+    this.name = email;
+    this.password = password;
+  }
+ }
