@@ -48,7 +48,7 @@ class Register {
 
       const result = this.authService.register(inputEmail, inputPass);
 
-      if (result.success) {
+      if (result) {
         console.log("register sucessful");
         // direct to login
       } else {

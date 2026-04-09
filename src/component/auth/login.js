@@ -48,7 +48,7 @@ class Login {
 
       const result = this.authService.login(inputEmail, inputPass);
 
-      if (result.success) {
+      if (result) {
         console.log("login sucessful");
         // direct to dashboard
       } else {
