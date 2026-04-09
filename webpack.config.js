@@ -20,6 +20,7 @@ export default {
     static: "./dist",
     open: true,
     port: 8080,
+    hot: true
   },
 
   plugins: [
@@ -27,6 +28,7 @@ export default {
       filename: "index.html",
       title: "Aura",
       template: "./src/template.html",
+      minify: false
     }),
   ],
 
